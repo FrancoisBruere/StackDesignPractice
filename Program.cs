@@ -36,10 +36,10 @@ namespace StackDesignPractice
                 throw new InvalidOperationException("stack list is empty");
 
                 var index = stack.Count - 1;
-                var stackIndex = stack[index];
+                var stackItem = stack[index];
                 
                 stack.RemoveAt(stack.Count - 1);
-                return stackIndex;
+                return stackItem;
            
 
         }
